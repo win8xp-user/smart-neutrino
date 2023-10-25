@@ -16,8 +16,8 @@ nd.bend(angle=90).put()
 nd.bend(angle=-180).put()
 nd.strt(length=10).put()
 
-sp.nazca_logo()
-sp.copysign(1.0, -0.0)
+# sp.nazca_logo()
+# sp.copysign(1.0, -0.0)
 
 # nd.export_gds(filename='1B_Import_nazca_draw_waveguides.gds')
 nd.export_gds(filename=__file__)
